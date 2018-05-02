@@ -1,1 +1,1 @@
-web: gunicorn fariza.wsgi --log-file -
+web: gunicorn fariza11.wsgi --log-file -
