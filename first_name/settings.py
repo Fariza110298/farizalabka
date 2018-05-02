@@ -27,8 +27,8 @@ SECRET_KEY = ')5dcsz#fnwm=#q!6)fg1*!e^0$^egv94sph!=t!z&y8i6bp(zx'
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-#DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+#DEBUG = False
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 ALLOWED_HOSTS = ['127.0.0.1','localhost','fariza11.herokuapp.com']
 
 
@@ -124,7 +124,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
