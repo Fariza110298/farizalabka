@@ -27,9 +27,9 @@ SECRET_KEY = ')5dcsz#fnwm=#q!6)fg1*!e^0$^egv94sph!=t!z&y8i6bp(zx'
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = []
+DEBUG = False
+#DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+ALLOWED_HOSTS = ['127.0.0.1','localhost','fariza.herokuapp.com']
 
 
 # Application definition
